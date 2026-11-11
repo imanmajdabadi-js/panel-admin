@@ -1,0 +1,81 @@
+﻿# Dependencies
+node_modules/
+.pnpm-store/
+.yarn/cache/
+.yarn/install-state.gz
+bower_components/
+
+# Next.js
+.next/
+out/
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Caches
+.cache/
+.turbo/
+.vite/
+.parcel-cache/
+
+# Environment files (keep examples)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/*
+!.idea/runConfigurations/
+!.idea/codeStyles/
+.history/
+*.swp
+*.swo
+*~
+
+# Test coverage / reports
+coverage/
+*.lcov
+
+# AI coding agent local state and metadata
+.cursor/
+.claude/
+.kilocode/
+.kilo/
+.agents/
+.agent/
+.windsurf/
+.copilot/
+.aider*
+.continue/
+
+# Preserve intentional project-level agent instructions:
+# AGENTS.md
+# CLAUDE.md
+# .github/copilot-instructions.md
+# .cursor/rules/
+
+# Internal AI agent governance and operating system
+apex/
+
+# Internal agent instruction and metadata files
+AGENTS.md
+MANIFEST.json
